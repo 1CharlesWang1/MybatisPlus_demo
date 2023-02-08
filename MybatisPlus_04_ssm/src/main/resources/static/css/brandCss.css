@@ -1,0 +1,96 @@
+
+.demo-table-expand {
+    font-size: 0;
+}
+.demo-table-expand label {
+    width: 90px;
+    color: #99a9bf;
+}
+.demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 仿宋;
+    margin: 20px 20px 20px 20px;
+    font-weight: normal;
+    color: #002c5b;
+}
+#app{
+    margin: 20px 0 0 0;
+}
+.logoImg {
+    width: 111px;
+    height: 76px;
+    position: absolute;
+    left: 30%;
+    top: 2%;
+
+}
+.exit {
+    font-size: 16px;
+    position: absolute;
+    left: 80%;
+    top: 4%;
+    width: 100px;
+    background-color: #ff3b5d;
+    border-radius: 5px;
+    color: white;
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    text-align : center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.exit:hover {
+    font-size: 16px;
+    position: absolute;
+    left: 80%;
+    top: 4%;
+    width: 100px;
+    background-color: rgba(255, 59, 93, 0.51);
+    border-radius: 5px;
+    color: white;
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    text-align : center;
+    height: 50px;
+    line-height: 50px;
+}
+.exit:active{
+    font-size: 16px;
+    position: absolute;
+    left: 80%;
+    top: 4%;
+    width: 100px;
+    background-color: #ff3b5d;
+    border-radius: 5px;
+    color: white;
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    text-align : center;
+    height: 50px;
+    line-height: 50px;
+}
+.welcome{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+}
+
+.space{
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+}

@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    /*background: skyblue;*/
+
+    width:100%;
+    margin: 0 auto;
+    height:100%;
+    min-height:300px;
+    background:-webkit-linear-gradient(right,#9fcdf6,#497ed0) ;
+}
+
+.reset{
+    position: absolute;
+    left: 10%;
+    top: 93%;
+}
+
+.bgDiv {
+    width: 422px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.login {
+    width: 422px;
+    height: 600px;
+    background: #fff;
+    position: relative;
+}
+
+.logoImg {
+    width: 111px;
+    height: 76px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+p2{
+    font-size: 50px;
+    color: #284b9a;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+    font-family: 仿宋;
+    font-weight: bolder;
+}
+
+.username
+{
+    width: 50px;
+    height: 60px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    top: 100px;
+    left: 30px;
+
+}
+
+.userImg,
+.pwdImg {
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 24px;
+}
+
+.userInp,
+.pwdInp {
+    width: 100px;
+    height: 25px;
+    margin-top: 18px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+
+a {
+    width: 190px;
+    height: 15px;
+    background: #4892ff;
+    border: 1px solid #326dcc;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 8px 15px 15px 15px;
+}
+
+a:active {
+    width: 190px;
+    height: 15px;
+    background: #003d9a;
+    border: 1px solid #326dcc;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 8px 15px 15px 15px;
+}
+
+.checkImg{
+    width: 50px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+#regform1{
+    width: 200px;
+    height: 50px;
+    background-color: #4892ff;
+    border: 1px solid #326dcc;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    left: 30%;
+    top: 90%;
+}
+#regform1:active{
+    width: 200px;
+    height: 50px;
+    background-color: #003d9a;
+    border: 1px solid #326dcc;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    left: 30%;
+    top: 90%;
+}
+
+span{
+    display: none;
+    color: red;
+}
+
+.check_user{
+    position: absolute;
+    left: 500%;
+    top: 50%;
+    color: red;
+    display: none;
+    width: 100px;
+    height: 30px;
+}
+
